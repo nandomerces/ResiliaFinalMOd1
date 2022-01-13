@@ -1,0 +1,116 @@
+/*Configurações gerais */
+
+*{
+    margin:0; 
+    padding: 0; 
+    box-sizing:border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%
+}
+
+/*BG*/
+body{
+    background:url(../Imagens/cenario02.png) fixed;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+/*HEADER*/
+.home{ 
+    display: block;
+    text-align: center; 
+    padding: 10px;
+    position: relative;
+}
+
+.buttonhome{
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+}
+/*MIOLO*/
+.miolo{ 
+    height: 572px;
+    display: flex; 
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Montserrat";
+    background-image:url( ../Imagens/Ativo\ 3.png);
+    background-size: 915.25px 680px ; 
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.caixainicio{
+    height: 579.12px; 
+    width: 626.72px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixainicio h1{
+    font-size: 30px;
+    padding-top: 100px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.texto {
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 16px;
+    text-align:center;
+    font: inherit;
+} 
+/*BOTÃO PERSONGENS */
+
+.personagem1{
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    padding:15px; 
+}
+
+/* .personagem1 :hover{
+    height: 49%;
+    width: 49%;
+     } */
+    
+.personagem2{
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    padding:15px; 
+}
+/* .personagem2 :hover{
+    height: 50%;
+    width: 50%;
+     }
+     */
+.personagem3{
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    padding:15px; 
+}
+/* .personagem3 :hover{
+    height: 50%;
+    width: 50%;
+     }
+     */
+/* FOOTER */
+.footer{
+    background:#5e5e5e;
+    padding: 10px; 
+    color: white;
+    font-family: "Montserrat";
+    text-align:center;
+    font-size: small;
+    position:absolute;
+	height: 30px;
+    bottom:0;
+	width: 100%;
+}
+
+
